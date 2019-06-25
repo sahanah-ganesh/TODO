@@ -5,6 +5,7 @@ const Link = ({ active, children, onClick }) => (
     <button
        onClick={onClick}
        disabled={active}
+       className='filter-button'
     >
       {children}
     </button>

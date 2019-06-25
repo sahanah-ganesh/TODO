@@ -4,7 +4,7 @@ import { VisibilityFilters } from '../Modules/action.js';
 
 const Filter = () => (
   <div>
-    <span>Show: </span>
+    <span>Sort By: </span>
     <FilterLink filter={VisibilityFilters.SHOW_ALL}>
       All
     </FilterLink>

@@ -5,7 +5,8 @@ import VisibleTodoList from '../Containers/VisibleTodoList.js';
 import '../Styles/App.css';
 
 const App = () => (
-  <div>
+  <div className='App'>
+    <h1>TO DO LIST</h1>
     <AddTodo />
     <VisibleTodoList />
     <Filter />

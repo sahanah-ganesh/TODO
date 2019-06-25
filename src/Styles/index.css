@@ -1,5 +1,8 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  background: rgb(231, 236, 237);
+  font-family: 'Helvetica', Arial, sans-serif;
+  color: #333;
+  line-height: normal;
+  text-align: justify;
+  -webkit-font-smoothing: antialiased;
 }
