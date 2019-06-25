@@ -1,3 +1,41 @@
 .App {
   text-align: center;
 }
+
+.input-todo[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.input-todo[type=text]:focus {
+  border: 3px solid #555;
+}
+
+#add-todo:hover {
+  letter-spacing: 0.8em;
+  background-color: grey;
+}
+
+#add-todo {
+  color: white;
+}
+
+.add-todo {
+  height: 4em;
+  width: 25%;
+  padding: 1.5em auto;
+  margin: 1em auto;
+  background-color: #555;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4, 0, .2, 1);
+  display: block;
+}
