@@ -3,16 +3,15 @@ import FilterLink from '../Containers/FilterLink.js';
 import { VisibilityFilters } from '../Modules/action.js';
 
 const Filter = () => (
-  <div>
-    <span>Sort By: </span>
+  <div className='filter-buttons'>
     <FilterLink filter={VisibilityFilters.SHOW_ALL}>
       All
     </FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_ACTIVE}>
-      Active
+      Pending
     </FilterLink>
     <FilterLink filter={VisibilityFilters.SHOW_COMPLETED}>
-      Completed
+      Done
     </FilterLink>
   </div>
 )

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Todo = ({ onClick, completed, text }) => (
   <div className='todo-item'>
-    <p
+    <h4
       onClick={ onClick }
       style={{
         textDecoration: completed ? 'line-through' : 'none'
@@ -11,7 +11,12 @@ const Todo = ({ onClick, completed, text }) => (
       className='todo-title'
     >
       { text }
-    </p>
+    </h4>
+    <input
+      className='todo-description'
+      placeholder='Description'
+      type={ event.target.value }
+    />
   </div>
 )
 

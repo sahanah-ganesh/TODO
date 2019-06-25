@@ -3,7 +3,7 @@
 }
 
 .input-todo[type=text] {
-  width: 100%;
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -38,8 +38,14 @@
   color: white;
 }
 
+.filter-buttons {
+  margin-top: 2em;
+}
+
 .todo-item {
-  margin: 5% 10% 5% 10%;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  margin: 5% 30% 5% 30%;
   padding: 0.5em 0.5em 0.5em 0.5em;
   text-align: left;
   border: 1px solid #555;
@@ -48,7 +54,13 @@
 }
 
 .todo-title {
-  margin: 0;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.todo-description {
+  border: none;
+  width: 80%;
 }
 
 .filter-button {

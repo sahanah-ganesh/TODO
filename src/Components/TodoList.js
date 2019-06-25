@@ -5,15 +5,12 @@ import Todo from './Todo';
 const TodoList = ({ todos, toggleTodo }) => (
 
   todos.map(todo =>
-    <div>
-      <Todo
-        key={todo.id}
-        {...todo}
-        onClick={() => toggleTodo(todo.id)}
-      />
-    </div>
+    <Todo
+      key={ todo.id }
+      { ...todo }
+      onClick={ () => toggleTodo(todo.id) }
+    />
   )
-
 )
 
 TodoList.propTypes = {

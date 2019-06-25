@@ -8,8 +8,8 @@ const App = () => (
   <div className='App'>
     <h1>TO DO LIST</h1>
     <AddTodo />
-    <VisibleTodoList />
     <Filter />
+    <VisibleTodoList />
   </div>
 )
 
