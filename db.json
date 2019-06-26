@@ -1,14 +1,16 @@
 {
   "todos": [
     {
-      "id": 1,
-      "title": "Go to the Gym",
-      "description": "Summer body here I come!"
+      "id": 999,
+      "text": "Go to the Gym",
+      "description": "Summer body here I come!",
+      "completed": false
     },
     {
-      "id": 2,
-      "title": "Do Laundry",
-      "description": "Gotta wash my gym clothes"
+      "id": 998,
+      "text": "Do Laundry",
+      "description": "Gotta wash my gym clothes",
+      "completed": false
     }
   ]
 }

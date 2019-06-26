@@ -2,8 +2,13 @@
   text-align: center;
 }
 
-.input-todo[type=text] {
-  width: 80%;
+.form {
+  background-color: white;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+.input-title[type=text] {
+  width: 40%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -14,7 +19,39 @@
   text-align: center;
 }
 
-.input-todo[type=text]:focus {
+.input-description[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.input-description[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: center;
+}
+
+/* .input-date[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.input-date[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  text-align: center;
+} */
+
+.input-title[type=text]:focus {
   border: 3px solid #555;
 }
 
@@ -45,7 +82,7 @@
 .todo-item {
   /* display: grid;
   grid-template-columns: 1fr 1fr; */
-  margin: 5% 30% 5% 30%;
+  margin: 0% 30% 5% 30%;
   padding: 0.5em 0.5em 0.5em 0.5em;
   text-align: left;
   border: 1px solid #555;
@@ -59,8 +96,23 @@
 }
 
 .todo-description {
-  border: none;
-  width: 80%;
+  max-width: 60%;
+  padding-right: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-right: 0em;
+  font-size: x-small;
+  color: grey;
+  font-style: italic;
+}
+
+.todo-date {
+  text-align: right;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  font-size: xx-small;
+  color: grey;
+  font-style: italic;
 }
 
 .filter-button {
